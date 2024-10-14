@@ -32,7 +32,7 @@ function App() {
             <Route path="/staking" element={<Staking />} />
             <Route path="/governance" element={<Governance />} />
           </Routes>
-          <Modal />
+          {/* <Modal /> */}
         </div>
       </div>
     </div>

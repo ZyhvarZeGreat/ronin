@@ -40,7 +40,12 @@ const BottomAssetPopup = ({ setIsBottomAssetPopup, setBottomAsset }) => {
   console.log(tokens);
 
   return (
-    <div className="dialog-root dialog-module_rn-dialog-root__iHv6T">
+    <div
+      onClick={() => {
+        setIsBottomAssetPopup(false);
+      }}
+      className="dialog-root  dialog-module_rn-dialog-root__iHv6T"
+    >
       <div className="dialog-mask"></div>
       <div tabIndex="-1" className="dialog-wrap">
         <div
